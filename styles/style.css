@@ -217,10 +217,22 @@ h2 {
     linear-gradient(0deg, #FFA500, #FFA500);
 }
 
+.prev {
+    padding: 10px;
+}
+
+.next {
+    padding: 10px;
+}
+
 
 @media screen and (min-width: 1200px) and (max-width: 1400px) {
     .header-menu li {
         font-size: 12px;
+    }
+
+    .slick-slide {
+        width: 17.54vw;
     }
 }
 
